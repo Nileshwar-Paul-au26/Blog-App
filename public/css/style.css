@@ -1,6 +1,9 @@
-body{
-    background-color: rgb(241, 149, 36);
+p {
+    margin: 10px 0 !important;
 }
-p{
-    background-color: aqua;
+
+.login-container {
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
 }
