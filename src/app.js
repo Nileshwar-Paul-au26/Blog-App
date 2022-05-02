@@ -51,7 +51,7 @@ app.use(express.json())
 
 
 //Routes
-app.use('/', router)
+app.use('./netlify/functions/app', router)
 app.use('/auth', authrouter)
 
 //Starting the server
